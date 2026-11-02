@@ -1,0 +1,22 @@
+# --- School material: never commit ---
+slides/
+*.pptx
+# chunks.json holds the text of every lecture slide plus its embedding
+chunks.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Secrets ---
+.env
+
+# --- Power BI lock file ---
+~$*.pbix
+
+# --- OS / editor ---
+Thumbs.db
+.DS_Store
+.vscode/
